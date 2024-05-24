@@ -257,7 +257,7 @@ body {
   transition: 0.2s;
   z-index: 1;
   overflow-y: scroll;
-  height: 34vh;
+  height: 32vh;
 }
 .menu li {
   padding: 0.7em 0.5em;
@@ -332,6 +332,7 @@ body {
 h2 {
   position: absolute;
   top: 40%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .Confirm {
   position: absolute;
