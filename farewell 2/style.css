@@ -203,6 +203,8 @@ body {
   top: 5%;
   width: 21%;
   height: 24%;
+  border-radius: 5px;
+  border: 2px solid black;
 }
 .avatar img {
   width: 72%;
