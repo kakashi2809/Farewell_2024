@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="preloader"></div>
     <!-- Home Page -->
     <main class="main1">
       <!-- <img src="images/Frame 8 1.png" alt="" /> -->
@@ -116,5 +117,13 @@
     <img class="NCSLogo" src="images/ncs-logo.png" alt="" />
     <img class="design" src="images/Group 112.png" alt="" />
     <script src="script.js"></script>
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function () {
+        this.setTimeout(function () {
+          loader.style.display = "none";
+        }, 1500);
+      });
+    </script>
   </body>
 </html>
