@@ -264,7 +264,7 @@ body {
   transition: 0.2s;
   z-index: 1;
   overflow-y: scroll;
-  height: 32vh;
+  height: 20vh;
 }
 .menu li {
   padding: 0.7em 0.5em;
